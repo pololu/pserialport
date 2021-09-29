@@ -2,14 +2,14 @@
 require File.expand_path('../lib/serialport/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name = "serialport"
-  s.license = "GPL-2"
+  s.name = "pserialport"
+  s.license = "GPL-2.0"
   s.version = SerialPort::VERSION
   s.authors = ["Guillaume Pierronnet", "Alan Stern", "Daniel E. Shipton", "Tobin Richard", "Hector Parra", "Ryan C. Payne"]
   s.summary = "Library for using RS-232 serial ports."
   s.description = "Ruby/SerialPort is a Ruby library that provides a class for using RS-232 serial ports."
-  s.email = "hector@hectorparra.com"
-  s.homepage = "http://github.com/hparra/ruby-serialport/"
+  s.email = "gems@pololu.com"
+  s.homepage = "http://github.com/pololu/pserialport/"
 
   s.add_development_dependency "bundler"
   s.add_development_dependency "rake"

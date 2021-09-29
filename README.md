@@ -1,3 +1,7 @@
+# pserialport
+
+This is a fork of [Ruby/SerialPort](https://github.com/hparra/ruby-serialport) available as the gem pserialport. It fixes Ruby 3 security warnings.
+
 # Ruby/SerialPort
 
 [![Build Status](https://travis-ci.org/hparra/ruby-serialport.png?branch=v1.2.2)](https://travis-ci.org/hparra/ruby-serialport)
